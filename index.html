@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>jQuery Mousewheel Event</title>
+    <meta charset="UTF-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="jquery.mousewheel.js"></script>
+    <script src="example.js"></script>
+    <style>
+      body {
+        font: normal 13px Helvetica, Arial, sans-serif;
+        color: #333333; }
+      p { padding: 0; margin: 0; }
+      .hot_zone {
+        width: 260px;
+        height: 260px;
+        padding: 20px;
+        margin: 0 0 30px 0;
+        background: #ececec; }
+    </style>
+  </head>
+  <body>
+    <div class="hot_zone" id="basic">
+      <p>Scroll while hovering to test</p>
+    </div>
+    <div class="hot_zone" id="direction">
+      <p>Display direction scrolled</p>
+    </div>
+    <div class="hot_zone" id="data">
+      <p>Custom data passed in</p>
+    </div>
+  </body>
+</html>
